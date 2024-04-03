@@ -6,18 +6,6 @@ GIT
     foobara (0.0.1)
 
 GIT
-  remote: https://github.com/foobara/command-generator.git
-  revision: b5aaf39f10cd39c48a017cc224fd8594bfa676f1
-  specs:
-    foobara-command-generator (0.0.1)
-
-GIT
-  remote: https://github.com/foobara/domain-generator.git
-  revision: fb20b2d893315a6fe723875a1d27b3ba3c91306f
-  specs:
-    foobara-domain-generator (0.0.1)
-
-GIT
   remote: https://github.com/foobara/dotenv-loader.git
   revision: 15bd91f9f7b2793c1766584e8661c87a5c81085d
   specs:
@@ -25,34 +13,10 @@ GIT
       dotenv
 
 GIT
-  remote: https://github.com/foobara/empty-ruby-project-generator.git
-  revision: 2eaed58aab2e9ff0a5e8f8c3e9e699bff5276a78
-  specs:
-    foobara-empty-ruby-project-generator (0.1.0)
-
-GIT
-  remote: https://github.com/foobara/files-generator.git
-  revision: 9c9c49a095adde08985cef2e8a5ff8037ad1ead9
-  specs:
-    foobara-files-generator (0.1.0)
-
-GIT
-  remote: https://github.com/foobara/foob.git
-  revision: 1da7299ac3bbd0a4834cd7e5f62c4f908819d393
-  specs:
-    foobara-foob (0.0.1)
-
-GIT
   remote: https://github.com/foobara/open-ai-api.git
   revision: b1e3c4145c212de057715699302dfce7eb011d02
   specs:
     foobara-open-ai-api (0.0.1)
-
-GIT
-  remote: https://github.com/foobara/organization-generator.git
-  revision: fc4403fc099dc0dfd454ebfcb75b73f2757db6c4
-  specs:
-    foobara-organization-generator (0.0.1)
 
 GIT
   remote: https://github.com/foobara/rack-connector.git
@@ -68,12 +32,6 @@ GIT
     foobara-rubocop-rules (0.0.1)
       rubocop
       rubocop-rspec
-
-GIT
-  remote: https://github.com/foobara/sh-cli-connector.git
-  revision: 36e164ac2c9c8874c033c355ec43168fd48f9b7a
-  specs:
-    foobara-sh-cli-connector (0.1.0)
 
 GIT
   remote: https://github.com/foobara/spec-helpers.git
@@ -219,18 +177,11 @@ PLATFORMS
 
 DEPENDENCIES
   foobara!
-  foobara-command-generator!
-  foobara-domain-generator!
   foobara-dotenv-loader!
-  foobara-empty-ruby-project-generator!
-  foobara-files-generator!
-  foobara-foob!
   foobara-open-ai-api!
   foobara-open-ai-api-rack!
-  foobara-organization-generator!
   foobara-rack-connector!
   foobara-rubocop-rules!
-  foobara-sh-cli-connector!
   foobara-spec-helpers!
   foobara-util!
   guard-rspec
