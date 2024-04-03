@@ -43,6 +43,12 @@ GIT
     foobara-foob (0.0.1)
 
 GIT
+  remote: https://github.com/foobara/open-ai-api.git
+  revision: b1e3c4145c212de057715699302dfce7eb011d02
+  specs:
+    foobara-open-ai-api (0.0.1)
+
+GIT
   remote: https://github.com/foobara/organization-generator.git
   revision: fc4403fc099dc0dfd454ebfcb75b73f2757db6c4
   specs:
@@ -211,6 +217,7 @@ DEPENDENCIES
   foobara-empty-ruby-project-generator!
   foobara-files-generator!
   foobara-foob!
+  foobara-open-ai-api!
   foobara-open-ai-api-rack!
   foobara-organization-generator!
   foobara-rubocop-rules!

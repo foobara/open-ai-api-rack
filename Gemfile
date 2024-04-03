@@ -7,6 +7,7 @@ gemspec
 gem "foobara", git: "foobara", branch: "main"
 
 gem "foobara-dotenv-loader", github: "foobara/dotenv-loader"
+gem "foobara-open-ai-api", github: "foobara/open-ai-api"
 gem "foobara-util", github: "foobara/util"
 
 gem "rake"
