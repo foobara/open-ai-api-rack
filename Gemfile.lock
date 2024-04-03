@@ -55,6 +55,13 @@ GIT
     foobara-organization-generator (0.0.1)
 
 GIT
+  remote: https://github.com/foobara/rack-connector.git
+  revision: 3147547187d77dbf32bc5563e4de5b9d5bbfb2f2
+  specs:
+    foobara-rack-connector (0.1.0)
+      rack
+
+GIT
   remote: https://github.com/foobara/rubocop-rules.git
   revision: 14fed1e360c95f20531aee72f95d7ce27e8cc9a2
   specs:
@@ -140,6 +147,7 @@ GEM
       pry (>= 0.13, < 0.15)
     public_suffix (5.0.5)
     racc (1.7.3)
+    rack (3.0.10)
     rainbow (3.1.1)
     rake (13.2.0)
     rb-fsevent (0.11.2)
@@ -220,6 +228,7 @@ DEPENDENCIES
   foobara-open-ai-api!
   foobara-open-ai-api-rack!
   foobara-organization-generator!
+  foobara-rack-connector!
   foobara-rubocop-rules!
   foobara-sh-cli-connector!
   foobara-spec-helpers!
