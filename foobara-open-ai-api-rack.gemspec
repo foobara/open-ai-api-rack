@@ -21,6 +21,9 @@ Gem::Specification.new do |spec|
     "LICENSE.txt"
   ]
 
+  spec.add_dependency "rackup"
+  spec.add_dependency "rake"
+
   spec.require_paths = ["lib"]
   spec.metadata["rubygems_mfa_required"] = "true"
 end
