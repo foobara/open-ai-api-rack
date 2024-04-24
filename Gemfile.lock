@@ -20,7 +20,7 @@ GIT
 
 GIT
   remote: https://github.com/foobara/rack-connector.git
-  revision: 1678f23482f24dfaabbaa7129c15db55694450fb
+  revision: aaf31157e8db7832e76fd130bbae3537924ef9f8
   specs:
     foobara-rack-connector (0.1.0)
       rack
