@@ -14,7 +14,7 @@ GIT
 
 GIT
   remote: https://github.com/foobara/open-ai-api.git
-  revision: af5a4ca40b4692e57b1251d236c5645e1b47b3ad
+  revision: 1c7dee97911ccadd3cc6d8b0b442fe677e103b78
   specs:
     foobara-open-ai-api (0.0.1)
 

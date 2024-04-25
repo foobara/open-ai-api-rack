@@ -27,7 +27,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 03 Apr 2024 23:33:18 GMT
+      - Thu, 25 Apr 2024 00:08:59 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -43,7 +43,7 @@ http_interactions:
       Openai-Organization:
       - user-mocyfzfqtusxbnhm0zzkagsd
       Openai-Processing-Ms:
-      - '491'
+      - '2124'
       Openai-Version:
       - '2020-10-01'
       Strict-Transport-Security:
@@ -61,28 +61,28 @@ http_interactions:
       X-Ratelimit-Reset-Tokens:
       - 44ms
       X-Request-Id:
-      - req_2f7e5131b643be5b67dff3208a56b53c
+      - req_71903522cd7109bf8780ee1885c560ad
       Cf-Cache-Status:
       - DYNAMIC
       Set-Cookie:
-      - __cf_bm=_e2EticnBZDraRYMAvw9vhtarz9fLFnKI.Mes1rXFlI-1712187198-1.0.1.1-y7P4vAQ9yNjQ0o1.vI0cDjVBCUbZBXM_sUkE.Xlux8vizkntBNrfulKbo5rjbaZRViE8Uc3sxxAEf4RPBkL.aQ;
-        path=/; expires=Thu, 04-Apr-24 00:03:18 GMT; domain=.api.openai.com; HttpOnly;
+      - __cf_bm=1BjkxM6DbnSy3HYt1.DkF9UuM5B2ImuHBoaq0ZbWzMk-1714003739-1.0.1.1-PNOVRsYmwgqh4VuMWyMTrb9TjjS5Qm0QcjMD1n4uEwVkrfT63YMHxlJ62ywaRVZsVgLeICT8VPR2LaxeEIb_Bw;
+        path=/; expires=Thu, 25-Apr-24 00:38:59 GMT; domain=.api.openai.com; HttpOnly;
         Secure; SameSite=None
-      - _cfuvid=gG1DGWV7g6wt6ZzT7n1Ze._FusUlrNfBPyPjK3JlZjA-1712187198739-0.0.1.1-604800000;
+      - _cfuvid=lAwH6X15TRXE0j4jMepscqK.1ayQu9dAcuYnSVs9vco-1714003739748-0.0.1.1-604800000;
         path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None
       Server:
       - cloudflare
       Cf-Ray:
-      - 86ecdce40d8d5c1c-SJC
+      - 879a19ff8f80ce48-SJC
       Alt-Svc:
       - h3=":443"; ma=86400
     body:
       encoding: ASCII-8BIT
       string: |
         {
-          "id": "chatcmpl-9A4OUyoBLYyPUOBLHK3lrixhNMboZ",
+          "id": "chatcmpl-9HgxXbblRwmJkGrbYWzEJiVM268Wp",
           "object": "chat.completion",
-          "created": 1712187198,
+          "created": 1714003739,
           "model": "gpt-3.5-turbo-0125",
           "choices": [
             {
@@ -100,7 +100,7 @@ http_interactions:
             "completion_tokens": 17,
             "total_tokens": 50
           },
-          "system_fingerprint": "fp_b28b39ffa8"
+          "system_fingerprint": "fp_c2295e73ad"
         }
-  recorded_at: Wed, 03 Apr 2024 23:33:18 GMT
+  recorded_at: Thu, 25 Apr 2024 00:08:59 GMT
 recorded_with: VCR 6.2.0

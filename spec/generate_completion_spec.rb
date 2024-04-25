@@ -1,6 +1,6 @@
 # TODO: Can probably simplify this spec once we trust things a bit more.
 # Just need to test that the command exists and is a command, really.
-RSpec.describe Foobara::OpenAiApi::GenerateCompletion do
+RSpec.describe Foobara::Ai::OpenAiApi::GenerateCompletion do
   let(:inputs) do
     {
       api_token:,
@@ -28,7 +28,7 @@ RSpec.describe Foobara::OpenAiApi::GenerateCompletion do
 
   it "can generate a completion", vcr: { record: :none } do
     expect(outcome).to be_success
-    expect(result).to be_a(Foobara::OpenAiApi::Types::Completion)
+    expect(result).to be_a(Foobara::Ai::OpenAiApi::Types::Completion)
     expect(result.choices.first.message.content).to match(/pH of honey.*\d+\.\d+ (and|to) \d+\.\d+/)
   end
 end
