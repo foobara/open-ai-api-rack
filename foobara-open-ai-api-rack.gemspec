@@ -24,6 +24,11 @@ Gem::Specification.new do |spec|
   spec.add_dependency "rackup"
   spec.add_dependency "rake"
 
+  spec.add_dependency "foobara"
+  spec.add_dependency "foobara-dotenv-loader"
+  spec.add_dependency "foobara-open-ai-api"
+  spec.add_dependency "foobara-rack-connector"
+
   spec.require_paths = ["lib"]
   spec.metadata["rubygems_mfa_required"] = "true"
 end
