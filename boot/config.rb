@@ -1,5 +1,3 @@
-require "dotenv"
-
 require "foobara/load_dotenv"
 
 Dotenv.require_keys("FOOBARA_ENV")
